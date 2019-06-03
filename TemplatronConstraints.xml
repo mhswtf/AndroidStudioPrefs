@@ -1,0 +1,127 @@
+<templateSet group="TemplatronConstraints">
+  <template name="cp" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;parent&quot;" description="Center in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="cph" value="app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;parent&quot;" description="Center horizontally in parent (RTL)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="cpv" value="app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;app:layout_constraintTop_toTopOf=&quot;parent&quot;" description="Center vertically in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bb" value="app:layout_constraintBottom_toBottomOf=&quot;parent$END$&quot;" description="Align to bottom in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="tt" value="app:layout_constraintTop_toTopOf=&quot;parent$END$&quot;" description="Align to top in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ss" value="app:layout_constraintStart_toStartOf=&quot;parent$END$&quot;" description="Align to start in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ee" value="app:layout_constraintEnd_toEndOf=&quot;parent$END$&quot;" description="Align to start in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="rr" value="app:layout_constraintRight_toRightOf=&quot;parent$END$&quot;" description="Align to right in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ll" value="app:layout_constraintLeft_toLeftOf=&quot;parent$END$&quot;" description="Align to left in parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="cw" value="app:layout_constrainedWidth=&quot;true$END$&quot;" description="Constrained width" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ch" value="app:layout_constrainedHeight=&quot;true$END$&quot;" description="Constrained height" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="hb" value="app:layout_constraintHorizontal_bias=&quot;0$END$&quot;" description="Horizontal bias" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vb" value="app:layout_constraintVertical_bias=&quot;0$END$&quot;" description="Vertical bias" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="tb" value="app:layout_constraintTop_toBottomOf=&quot;$END$&quot;" description="Top to bottom of" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="bt" value="app:layout_constraintBottom_toTopOf=&quot;$END$&quot;" description="Bottom to top of" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="lr" value="app:layout_constraintLeft_toRightOf=&quot;$END$&quot;" description="Left to right of" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="rl" value="app:layout_constraintRight_toLeftOf=&quot;$END$&quot;" description="Right to left of" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="se" value="app:layout_constraintStart_toEndOf=&quot;$END$&quot;" description="Start to end of" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="es" value="app:layout_constraintEnd_toStartOf=&quot;$END$&quot;" description="End to start of" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="cv" value="app:layout_constraintBottom_toBottomOf=&quot;@id/$VIEW$&quot;&#10;app:layout_constraintTop_toTopOf=&quot;@id/$VIEW$&quot;&#10;app:layout_constraintStart_toStartOf=&quot;@id/$VIEW$&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;@id/$VIEW$&quot;" description="Center to view" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="@id/" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="cvv" value="app:layout_constraintBottom_toBottomOf=&quot;@id/$VIEW$&quot;&#10;app:layout_constraintTop_toTopOf=&quot;@id/$VIEW$&quot;" description="Center to view vertically" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="@id/" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="cvh" value="app:layout_constraintBottom_toBottomOf=&quot;@id/$VIEW$&quot;&#10;app:layout_constraintTop_toTopOf=&quot;@id/$VIEW$&quot;" description="Center to view horizontally (RTL)" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW" expression="@id/" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vmargins" value="    &lt;androidx.constraintlayout.widget.Guideline&#10;        android:id=&quot;@+id/guideline_margin_start&quot;&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:orientation=&quot;vertical&quot;&#10;        app:layout_constraintGuide_begin=&quot;$MARGIN$dp&quot; /&gt;&#10;        &#10;    &lt;androidx.constraintlayout.widget.Guideline&#10;        android:id=&quot;@+id/guideline_margin_end&quot;&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:orientation=&quot;vertical&quot;&#10;        app:layout_constraintGuide_end=&quot;$MARGIN$dp&quot; /&gt;" description="Create two vertical guidelines to act as margins" toReformat="false" toShortenFQNames="true">
+    <variable name="MARGIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="hmargins" value="    &lt;androidx.constraintlayout.widget.Guideline&#10;        android:id=&quot;@+id/guideline_margin_top&quot;&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:orientation=&quot;horizontal&quot;&#10;        app:layout_constraintGuide_begin=&quot;$MARGIN$dp&quot; /&gt;&#10;        &#10;    &lt;androidx.constraintlayout.widget.Guideline&#10;        android:id=&quot;@+id/guideline_margin_bottom&quot;&#10;        android:layout_width=&quot;wrap_content&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&#10;        android:orientation=&quot;horizontal&quot;&#10;        app:layout_constraintGuide_end=&quot;$MARGIN$dp&quot; /&gt;" description="Create two horizontal guidelines to act as margins" toReformat="false" toShortenFQNames="true">
+    <variable name="MARGIN" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
